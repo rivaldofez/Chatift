@@ -12,6 +12,7 @@
 		7EDB89BC28217960003DBB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB89BB28217960003DBB01 /* Assets.xcassets */; };
 		7EDB89BF28217960003DBB01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB89BE28217960003DBB01 /* Preview Assets.xcassets */; };
 		7EDB89C728217A78003DBB01 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB89C628217A78003DBB01 /* TitleRow.swift */; };
+		7EDB89CA2821920F003DBB01 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB89C92821920F003DBB01 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7EDB89BB28217960003DBB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDB89BE28217960003DBB01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7EDB89C628217A78003DBB01 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		7EDB89C92821920F003DBB01 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				7EDB89B72821795F003DBB01 /* ChatiftApp.swift */,
 				7EDB89B92821795F003DBB01 /* ContentView.swift */,
+				7EDB89C8282191FD003DBB01 /* Models */,
 				7EDB89C528217A4D003DBB01 /* Components */,
 				7EDB89BB28217960003DBB01 /* Assets.xcassets */,
 				7EDB89BD28217960003DBB01 /* Preview Content */,
@@ -76,6 +79,14 @@
 				7EDB89C628217A78003DBB01 /* TitleRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		7EDB89C8282191FD003DBB01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB89C92821920F003DBB01 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EDB89BA2821795F003DBB01 /* ContentView.swift in Sources */,
+				7EDB89CA2821920F003DBB01 /* Message.swift in Sources */,
 				7EDB89B82821795F003DBB01 /* ChatiftApp.swift in Sources */,
 				7EDB89C728217A78003DBB01 /* TitleRow.swift in Sources */,
 			);
